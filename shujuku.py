@@ -173,4 +173,4 @@ if __name__ == '__main__':
     # 每隔10分钟监测一次新文件
     while True:
         check_new_file(api_key, secret_key, access_token, refresh_token, watch_folder, wp_host, wp_username, wp_password, wp_database)
-        time.sleep(600)  # 休眠10分钟
+        time.sleep(600)  # 休眠10分钟 
